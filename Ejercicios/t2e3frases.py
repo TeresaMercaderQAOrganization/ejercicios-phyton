@@ -2,7 +2,7 @@
 frase = input("Introduce una frase: ")
 
 #longitud de la frase
-print("Longitud de la frase:", len())
+print("Longitud de la frase:", len(frase))
 
 #frase en mayúsculas
 print("En mayúsculas:", frase.upper())
