@@ -4,22 +4,33 @@ camiseta = 10
 sudadera = 20.5
 gorra = 5.5 
 
+print ("camiseta: 10 euros")
+print ("sudadera : 20.50 euros")
+print ("gorra : 5.5 euros")
+
 #Pedir cantidades
 numero_camisetas = int (input("¿cuantas camisetas quieres?"))
 numero_sudadera = int (input ("¿cuantas sudaderas quieres?" ))
 numero_gorra = int (input("¿cuantas gorras quieres?"))
 
+total_camistas = numero_camisetas * camiseta
+total_sudadera = numero_sudadera * sudadera
+total_gorra = numero_gorra * gorra
+
 #Total de la compra
-precio_total_compra = "suma numero_camisetas + suma numero_sudader + numero_gorra"
+Total_compra = (total_camistas + total_sudadera + total_gorra)
 
-#PRECIO DEL IVA
-precio_total_iva= 0.21
+print ("Total compra", Total_compra)
 
-#PRECIO TOTAL
-precio_total_iva= preciocompra + (precio total compra * 0.21)
+iva =(Total_compra * 0.21)
 
-#Resultados
-print precio_total_compra = precio_total_iva + precio_total_compra * 0.21
+print ("IVA", iva)
+
+total_compra_iva = Total_compra + iva
+print ("total_compra_iva", total_compra_iva)
+
+
+
 
 
 
